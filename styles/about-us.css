@@ -37,9 +37,13 @@ h3 {
   margin-right: auto;
   line-height: 30px;
 }
-.second--section a {
+.second--section button {
   color: var(--yellow--color);
   font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* THIRD SECTION */
@@ -79,4 +83,11 @@ h3 {
 
 .fourth--section .delioc p {
   margin-right: 0;
+}
+
+.read__more--div--about {
+  display: none;
+}
+.read__more--div--about.active {
+  display: block;
 }
