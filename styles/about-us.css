@@ -91,3 +91,70 @@ h3 {
 .read__more--div--about.active {
   display: block;
 }
+@media screen and (max-width: 1024px) {
+  .nav--col--2 li {
+    margin-right: 35px;
+  }
+  .second--section,
+  .third--section,
+  .fourth--section {
+    padding: 70px 50px;
+  }
+  .delioc {
+    width: auto;
+  }
+  .hero--section h1 {
+    font-size: 60px;
+    line-height: 5rem;
+  }
+  .fourth--section .delioc {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .second--section p {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .delioc img {
+    display: none;
+  }
+  .delioc p {
+    margin-right: 0;
+  }
+  .hero--section h1 {
+    font-size: 50px;
+    line-height: 4rem;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hero--section h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero--section h1 {
+    line-height: 3.5rem;
+    padding: 0 20px;
+    margin-top: 3rem;
+  }
+}
