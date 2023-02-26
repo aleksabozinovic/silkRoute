@@ -98,13 +98,13 @@ h3 {
   .second--section,
   .third--section,
   .fourth--section {
-    padding: 70px 50px;
+    padding: 70px 10px;
   }
   .delioc {
     width: auto;
   }
   .hero--section h1 {
-    font-size: 60px;
+    font-size: 70px;
     line-height: 5rem;
   }
   .fourth--section .delioc {
@@ -125,42 +125,55 @@ h3 {
   .delioc p {
     margin-right: 0;
   }
-  .hero--section h1 {
-    font-size: 50px;
-    line-height: 4rem;
-  }
-  h2 {
-    font-size: 40px;
-  }
-  p {
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-  }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 768px) {
+  .second--section,
+  .third--section,
+  .fourth--section {
+    text-align: justify;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: left;
+  }
+  h1,
   .hero--section h1 {
-    font-size: 40px;
+    font-size: 70px;
+    line-height: 150%;
   }
   h2 {
-    font-size: 34px;
+    font-size: 40px;
   }
   h3 {
     font-size: 26px;
   }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-  /* .hero--section h1 {
-    line-height: 3.5rem;
-    padding: 0 10px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-  } */
+  .hero--section h1 {
+    font-size: 50px;
+  }
+  .second--section,
+  .third--section,
+  .fourth--section {
+    padding: 60px 10px;
+  }
+  .third--section h3,
+  .fourth--section h3 {
+    font-size: 26px;
+  }
+
   .nav--col--1 {
     padding-top: 0;
+  }
+  .second--section p {
+    font-size: 20px;
   }
 }
 
