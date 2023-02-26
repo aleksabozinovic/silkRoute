@@ -151,10 +151,24 @@ h3 {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .hero--section h1 {
     line-height: 3.5rem;
-    padding: 0 20px;
+    padding: 0 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -45%);
+  }
+  .nav--col--1 {
+    padding-top: 0;
+  }
+}
 
+@media screen and (max-width: 375px) {
+  .hero--section h1 {
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -47%);
   }
 }
