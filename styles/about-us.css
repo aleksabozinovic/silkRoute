@@ -174,6 +174,14 @@ h3 {
   }
   .second--section p {
     font-size: 20px;
+    margin: 25px 0 30px 0;
+  }
+  .third--section h3,
+  .fourth--section h2 {
+    margin-bottom: 20px;
+  }
+  .fourth--section .delioc {
+    margin-top: 20px;
   }
 }
 
