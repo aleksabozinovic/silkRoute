@@ -6,30 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
 
-  
     <!-- STYLES -->
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
     <nav>
       <div class="nav--col--1">
-        <img src="images/LOGO.png " alt="logo" />
+        <img src="images/LOGO.svg " alt="logo" />
       </div>
+
+      <div class="burger__div">
+        <img src="/images/burger.svg" alt="burger" />
+      </div>
+
       <ul class="nav--col--2">
-        <li><a class="active--page" href="#">Home</a></li>
-        <li><a href="/about-us.html">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="close--burger__div">
+          <img src="/images/close-burger.svg" alt="close burger" />
+        </li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a class="active--page" href="/about-us.html">About Us</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/blogs.html">Blogs</a></li>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/contact-us.html">Contact</a></li>
       </ul>
     </nav>
 
-    <section class="hero--section">
+    <section class="hero--slider"></section>
 
-      <h1 class="hero--text">Immigration Tailored to You</h1>
+    <footer>
+      <div class="footer--container">
+        <div class="footer--row">
+          <div class="footer--col--1">
+            <img src="/images/logo.svg" alt="logo" />
+          </div>
 
-      <div class="change--background"></div>
-    </section>
+          <ul class="footer--col--2">
+            <div class="footer__delioc">
+              <li><a href="/index.html">Home</a></li>
+              <li><a href="/about-us.html">About Us</a></li>
+            </div>
+            <div class="footer__delioc">
+              <li><a href="/services.html">Services</a></li>
+              <li><a href="/blogs.html">Blogs</a></li>
+            </div>
+
+            <div class="footer__delioc">
+              <li><a href="/faq.html">FAQ</a></li>
+              <li><a href="/contact-us.html">Contact</a></li>
+            </div>
+
+            <div class="footer__delioc">
+              <li><a href="/tearms.html">Terms and Conditions</a></li>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+            </div>
+          </ul>
+        </div>
+
+        <p class="copyright">Silk Route. All rights reserved © 2023</p>
+      </div>
+    </footer>
   </body>
 </html>

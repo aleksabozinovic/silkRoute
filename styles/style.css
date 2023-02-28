@@ -2,23 +2,42 @@
 /* font-family: 'Anton', sans-serif; */
 /* font-family: 'PT Sans Narrow', sans-serif; */
 
-.hero--section {
-  background-image: url("/images/Final_black\ 3\ 1.png");
+.hero--slider {
   width: 100%;
+  position: relative;
   height: 100vh;
+  overflow: hidden;
+}
+
+.hero--section {
+  width: 0%;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  background-position: top;
-  top: 0;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  float: left;
+  overflow: hidden;
+}
+.slide--1 {
+  background-image: url("/images/Final_black\ 3\ 1.png");
+}
+.slide--2 {
+  background-image: url("/images/AI_globe_europe_\ 1.png");
+}
+.slide--3 {
+  background-image: url("/images/AI_World\ 1.png");
+}
+.slide--4 {
+  background-image: url("/images/Image_ai.png");
 }
 
 .hero--text {
   font-size: 80px;
   color: var(--white--color);
   width: 470px;
-  margin-left: 180px;
-  padding-top: 200px;
+  margin-left: 375px;
   font-weight: normal;
   line-height: 150%;
 }
