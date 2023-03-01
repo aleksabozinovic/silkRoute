@@ -1,6 +1,7 @@
 const readMoreButtonAbout = document.querySelector(
   ".read__more--button--about"
 );
+const readMoreDivAbout = document.querySelector(".read__more--div--about");
 
 // Open More
 readMoreButtonAbout.addEventListener("click", (e) => {

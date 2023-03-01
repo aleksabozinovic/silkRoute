@@ -1,6 +1,5 @@
 "use strict";
 
-const readMoreDivAbout = document.querySelector(".read__more--div--about");
 const burgerDiv = document.querySelector(".burger__div");
 const closeBurger = document.querySelector(".close--burger__div");
 const closeBurgerImg = document.querySelector(".close--burger__div img");
