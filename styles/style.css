@@ -39,6 +39,32 @@
   line-height: 95px;
 }
 
+.slide--2 .border--span {
+  position: relative;
+}
+.slide--2 .border--span::after {
+  content: "";
+  position: absolute;
+  left: -7.5%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  width: 115%;
+  height: 5px;
+  background: var(--red--color);
+  transform: rotate(345deg);
+}
+.slide--2 .border--span::before {
+  content: "";
+  position: absolute;
+  left: -7.5%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  width: 115%;
+  height: 5px;
+  background: var(--red--color);
+  transform: rotate(-345deg);
+}
+
 .slide--3 {
   background-image: url("/images/AI_World\ 1.png");
   transform: translateX(200%);
@@ -99,14 +125,14 @@
 .hero--second__section h3 {
   font-size: 32px;
   line-height: 48px;
-  margin-top: 50px;
   margin-bottom: 40px;
   text-align: center;
 }
 .hero--second__section a {
   font-size: 24px;
   line-height: 29px;
-
+  display: block;
+  text-align: center;
   width: 100%;
 }
 .hero--second--row {
@@ -121,6 +147,23 @@
 .hero__second--col p {
   line-height: 30px;
   width: 470px;
+  text-align: justify;
 }
-.hero__second--col img {
+
+/* Third Section */
+
+.hero--third__section {
+  background: var(--green--color);
+  padding: 100px 475px;
+  padding-bottom: 80px;
+}
+.hero--third__section h2 {
+  font-size: 60px;
+  line-height: 90px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.hero--third__section p {
+  line-height: 30px;
+  text-align: justify;
 }
