@@ -1,0 +1,81 @@
+@import url("/styles/general.css");
+
+h1 {
+  font-size: 80px;
+  line-height: 96px;
+  margin-bottom: 30px;
+}
+.services--first__section {
+  background: var(--blue--color);
+  padding-left: 475px;
+  padding-top: 160px;
+  padding-bottom: 70px;
+  padding-right: 440px;
+}
+.services--first__section p {
+  margin-bottom: 30px;
+  text-align: justify;
+  max-width: 970px;
+}
+.services--first__section ul {
+  margin-left: 40px;
+  max-width: 960px;
+}
+.services--first__section ul li {
+  margin-bottom: 40px;
+  display: flex;
+}
+.services--first__section ul li p:first-child {
+  margin-right: 5px;
+}
+.services--first__section ul li p {
+  margin-bottom: 0;
+  width: auto;
+}
+
+/* Second Section */
+.services--second__section,
+.services--third__section {
+  padding: 70px 0;
+  display: flex;
+  padding-left: 475px;
+  padding-right: 440px;
+  align-items: center;
+  background: var(--green--color);
+}
+.services--second__section h2,
+.services--third__section h2 {
+  margin-right: 15px;
+  font-size: 30px;
+  line-height: 45px;
+  width: 700px;
+}
+
+/* Third Section */
+.services--third__section {
+  background: var(--red--color);
+}
+
+/* Fourth Section */
+
+.services--fourth__section {
+  background: var(--yellow--color);
+  padding: 70px 475px;
+}
+.services--fourth__section h2 {
+  font-size: 48px;
+  line-height: 72px;
+}
+.services--row1 p {
+  text-align: justify;
+  margin: 35px 0;
+}
+
+.services--row2 p {
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.services--row2 p:last-child {
+  margin-bottom: 0;
+}
