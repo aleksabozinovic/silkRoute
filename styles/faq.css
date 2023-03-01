@@ -1,0 +1,98 @@
+@import url("/styles/general.css");
+
+.faq__hero--section {
+  padding-top: 150px;
+  padding-bottom: 70px;
+  background-color: var(--red--color);
+  padding-left: 476px;
+  padding-right: 476px;
+}
+.question {
+  margin-top: 30px;
+}
+.question:first-child {
+  margin-top: 0;
+}
+.question h2 {
+  font-weight: lighter;
+  font-family: "PT Sans Narrow", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.question h2 span {
+  font-family: "Anton", sans-serif;
+  margin-right: 5px;
+}
+
+.uvuceno {
+  display: flex;
+  padding-left: 50px;
+}
+.uvuceno {
+  list-style-type: disc;
+  margin-top: 15px;
+}
+.uvuceno p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.uvuceno .p__text {
+  font-family: "Anton", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  font-size: 24px;
+  line-height: 36px;
+  margin-right: 5px;
+}
+
+.uvuceno .p__text span {
+  position: relative;
+  bottom: 1.5px;
+  font-size: 24px;
+}
+
+.uvuceno .p__text i {
+  margin-top: 7px;
+  margin-left: 4px;
+}
+@media screen and (max-width: 1740px) {
+  .faq__hero--section {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+@media screen and (max-width: 1590px) {
+  .faq__hero--section {
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+}
+@media screen and (max-width: 1490px) {
+  .faq__hero--section {
+    padding-left: 235px;
+    padding-right: 235px;
+  }
+}
+@media screen and (max-width: 1490px) {
+  .faq__hero--section {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .faq__hero--section {
+    padding-left: 135px;
+    padding-right: 135px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq__hero--section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
