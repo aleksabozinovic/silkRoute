@@ -258,6 +258,12 @@ footer .copyright {
     padding: 0 135px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0 30px;
+  }
+}
 @media screen and (max-width: 680px) {
   footer .footer--row .footer--col--2 li {
     margin-right: 20px;
