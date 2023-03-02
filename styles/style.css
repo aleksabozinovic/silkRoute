@@ -186,6 +186,20 @@
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .slide--1 {
+    background-image: url("/images/1home_1440px.png");
+  }
+  .slide--2 {
+    background-image: url("/images/2home_1440.png");
+  }
+  .slide--3 {
+    background-image: url("/images/3home_1440.png");
+  }
+  .slide--4 {
+    background-image: url("/images/4home_1440.png");
+  }
+}
 @media screen and (max-width: 768px) {
   .hero--second__section {
     padding: 70px 30px;
@@ -304,8 +318,5 @@
   }
   .slide--4 {
     background-image: url("/images/4home_360px.png");
-  }
-  .hero--section {
-    background-position: bottom;
   }
 }
