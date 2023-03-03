@@ -110,3 +110,26 @@
     padding-right: 30px;
   }
 }
+
+@media screen and (max-width: 670px) {
+  .question h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .uvuceno {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .faq__hero--section {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+  }
+}

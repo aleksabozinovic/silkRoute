@@ -17,6 +17,7 @@ nav {
   font-size: 34px;
   line-height: 50px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .contact--section1 img {
@@ -29,6 +30,22 @@ nav {
 }
 .contact--section2 .box {
   padding: 100px 0;
+}
+.contact--section2 .box h4 {
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 8px;
+}
+
+.contact--section2 .box p {
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 7px;
+  color: #000;
+  font-family: "Anton", sans-serif;
+}
+.contact--section2 .box p span {
+  margin-right: 10px;
 }
 .contact--section2 .box1,
 .contact--section2 .box3 {
@@ -51,4 +68,164 @@ nav {
 }
 .contact--section2 .box3 {
   background: var(--red--color);
+}
+.contact--section2 .box3 div {
+  padding-left: 140px;
+}
+
+/* Form */
+
+.contact--section1 form.active {
+  display: flex;
+}
+.contact--section1 form {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  width: 770px;
+  height: 650px;
+  margin-top: 65px;
+  padding: 40px 40px;
+  padding-bottom: 30px;
+  background: var(--red--color);
+}
+
+.contact--section1 form input,
+.contact--section1 form textarea {
+  background: yellow;
+  padding: 13px 0;
+  padding-left: 30px;
+  border: 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 400;
+  outline: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-bottom: 20px;
+}
+.contact--section1 form textarea {
+  resize: none;
+  height: 170px;
+  margin-bottom: 0px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+
+.contact--section1 form .button__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.contact--section1 form button {
+  font-size: 26px;
+  line-height: 40px;
+  padding: 13px 80px;
+  border: 0;
+  background: var(--green--color);
+  color: #000;
+  font-family: "Anton", sans-serif;
+  /* width: 230px; */
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .contact--section2 .box1 {
+    flex: 1;
+  }
+  .contact--section2 .box1 div {
+    padding-left: 170px;
+  }
+
+  .contact--section2 .box3 {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact--section2 .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact--section2 .box div {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact--section2 {
+    display: grid;
+  }
+  .contact--section2 .box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .contact--section2 .box2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .contact--section2 .box3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+  .contact--section1 h2 {
+    padding: 0 40px;
+  }
+  .contact--section1 .red--text {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .contact--section1 form {
+    width: 92%;
+    height: 650px;
+  }
+  .contact--section1 form button {
+    padding: 13px 70px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact--section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact--section1 h2 {
+    padding: 0 10px;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .contact--section1 .red--text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .contact--section1 form {
+    padding: 40px 20px;
+  }
+  .contact--section1 form .button__wrapper {
+    justify-content: center;
+  }
+  .contact--section1 form button {
+    margin-top: 30px;
+  }
 }

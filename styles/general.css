@@ -87,7 +87,7 @@ nav {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   width: 144px;
 }
 .nav--col--1 img {

@@ -1,0 +1,158 @@
+@import url("/styles/general.css");
+
+nav {
+  background: #000;
+}
+
+p {
+  color: #000;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+h1,
+h2,
+h3 {
+  text-shadow: none;
+}
+section {
+  padding-top: 150px;
+  padding-bottom: 60px;
+  padding-left: 475px;
+  padding-right: 475px;
+}
+span {
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 5px;
+}
+li span {
+  font-weight: bold;
+}
+.bold {
+  margin-right: 0;
+}
+h1 {
+  font-size: 34px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+h2,
+h3 {
+  margin-bottom: 30px;
+}
+section div {
+  margin-bottom: 30px;
+}
+section div:last-child {
+  margin-bottom: 0;
+}
+.margin--bottom30 {
+  margin-bottom: 30px;
+}
+.margin--bottom10 {
+  margin-bottom: 10px;
+}
+.margin {
+  margin: 10px 0;
+}
+.margin-10-30 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.margin--top10 {
+  margin-top: 10px;
+}
+
+.last--div p {
+  margin-bottom: 10px;
+}
+.last--div p:first-child {
+  margin-bottom: 30px;
+}
+
+.last--div p:last-child {
+  margin-bottom: 20px;
+}
+a {
+  font-weight: 600;
+  font-size: 20px;
+}
+.write--to--us {
+  margin-top: 10px;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.last--div ul p {
+  margin-bottom: 5px !important;
+}
+.last--div ul {
+  margin-top: 20px;
+}
+@media screen and (max-width: 1440px) {
+  section {
+    padding-left: 235px;
+    padding-right: 235px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  section {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 42px;
+    margin-top: 40px;
+  }
+  h2,
+  h3 {
+    margin-bottom: 20px;
+  }
+  section div {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  section {
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
