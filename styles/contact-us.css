@@ -27,15 +27,24 @@ nav {
   display: flex;
   /* justify-content: space-between; */
 }
+.contact--section2 .box {
+  padding: 100px 0;
+}
 .contact--section2 .box1,
 .contact--section2 .box3 {
   flex: 2;
 }
 .contact--section2 .box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 1;
 }
 .contact--section2 .box1 {
   background: var(--green--color);
+}
+.contact--section2 .box1 div {
+  padding-left: 410px;
 }
 .contact--section2 .box2 {
   background: var(--yellow--color);
