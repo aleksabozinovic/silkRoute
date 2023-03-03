@@ -1,0 +1,45 @@
+@import url("/styles/general.css");
+
+nav {
+  background: #000;
+}
+
+.contact--section1 {
+  padding-top: 200px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact--section1 h2 {
+  font-size: 34px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.contact--section1 img {
+  cursor: pointer;
+}
+
+.contact--section2 {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.contact--section2 .box1,
+.contact--section2 .box3 {
+  flex: 2;
+}
+.contact--section2 .box2 {
+  flex: 1;
+}
+.contact--section2 .box1 {
+  background: var(--green--color);
+}
+.contact--section2 .box2 {
+  background: var(--yellow--color);
+}
+.contact--section2 .box3 {
+  background: var(--red--color);
+}
