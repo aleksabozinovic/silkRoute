@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
+    <title>Thank you</title>
+    <link rel="stylesheet" href="/styles/thankyou.css" />
     <link rel="stylesheet" href="/styles/contact-us.css" />
   </head>
   <body>
@@ -42,7 +43,15 @@
         <img src="/images/Arrow down1.png" alt="arrow down" />
       </div>
 
-      <form method="POST" action="https://formsubmit.co/lala123.cvet@gmail.com">
+      <form
+        class="active"
+        method="POST"
+        action="https://formsubmit.co/lala123.cvet@gmail.com"
+      >
+        <div class="overlayRed">
+          <img src="/images/checked.png" alt="checked" />
+          <p class="green--text">Submitted Successfully!</p>
+        </div>
         <input type="hidden" name="_captcha" value="false" />
         <input
           type="hidden"
@@ -52,20 +61,19 @@
         <input
           type="hidden"
           name="_next"
-          value="http://127.0.0.1:5500/thankyou.html"
+          value="http://127.0.0.1:5500/contact-us.html"
         />
 
-        <input required name="name" type="text" placeholder="Full Name" />
-        <input required name="number" type="text" placeholder="Phone" />
-        <input required name="email" type="email" placeholder="Email" />
-        <input required name="country" type="text" placeholder="Country" />
+        <input name="name" type="text" placeholder="Full Name" />
+        <input name="number" type="text" placeholder="Phone" />
+        <input name="email" type="email" placeholder="Email" />
+        <input name="country" type="text" placeholder="Country" />
         <textarea
           name="#"
           id="#"
           cols="30"
           rows="10"
           placeholder="How can we help?"
-          required
         ></textarea>
         <!-- <tex type="text" placeholder="How can we help?" /> -->
         <div class="button__wrapper">

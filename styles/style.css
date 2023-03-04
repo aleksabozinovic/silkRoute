@@ -200,7 +200,10 @@
     background-image: url("/images/4home_1440.png");
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1140px) {
+  .hero--second__section img {
+    display: none;
+  }
   .hero--second__section {
     padding: 70px 30px;
   }
@@ -221,9 +224,7 @@
     font-size: 40px;
     text-align: left;
   }
-  .hero--second__section img {
-    display: none;
-  }
+
   .hero--second__section p {
     font-size: 20px;
     line-height: 30px;
@@ -250,6 +251,8 @@
     line-height: 60px;
     margin-bottom: 30px;
   }
+}
+@media screen and (max-width: 768px) {
   .div__rec {
     display: none;
   }
