@@ -140,6 +140,7 @@ nav {
   font-family: "Anton", sans-serif;
   /* width: 230px; */
   margin-top: 40px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1440px) {

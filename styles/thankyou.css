@@ -1,12 +1,12 @@
 form {
   position: relative;
+  display: none !important;
 }
 .overlayRed img {
   cursor: default !important;
 }
 .overlayRed {
-  background: rgba(255, 15, 122, 0.69);
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
@@ -17,6 +17,10 @@ form {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 65px;
+}
+.arrow {
+  pointer-events: none;
 }
 .overlayRed p {
   font-size: 50px;
@@ -32,6 +36,6 @@ form {
   .overlayRed p {
     font-size: 30px;
     line-height: 45px;
-    margin-top: 80px;
+    margin-top: 30px;
   }
 }

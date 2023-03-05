@@ -150,17 +150,19 @@ footer .footer__delioc {
 
 .footer--row {
   padding-left: 160px;
-  padding-right: 300px;
+  padding-right: 160px;
   padding-top: 1rem;
   padding-bottom: 5px;
 }
 
 .footer--col--1 {
   width: 122px;
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  left: 390px;
+  /* margin-right: 80px; */
 }
 
 .footer--col--1 img {
@@ -177,6 +179,9 @@ footer .footer--row .footer--col--2 {
 footer .footer--row .footer--col--2 li {
   margin-right: 35px;
 }
+footer .footer--row .footer--col--2 .footer__delioc:last-child li:last-child {
+  margin-right: 0;
+}
 
 footer .footer--row .footer--col--2 li a {
   color: var(--white--color);
@@ -191,9 +196,29 @@ footer .copyright {
   margin-top: 40px;
 }
 
+@media screen and (max-width: 1770px) {
+  .footer--col--1 {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .footer--col--1 {
+    left: 150px;
+  }
+}
 @media screen and (max-width: 1270px) {
-  footer .footer--row {
+  .footer--col--1 {
+    left: 100px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  /* footer .footer--row {
     padding-right: 0;
+  } */
+}
+@media screen and (max-width: 1162px) {
+  .footer--col--1 {
+    left: 50px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -210,6 +235,10 @@ footer .copyright {
   }
   footer .footer__delioc li {
     margin-bottom: 15px;
+  }
+  .footer--col--1 {
+    position: relative;
+    left: 0;
   }
 }
 @media screen and (max-width: 880px) {
@@ -246,11 +275,12 @@ footer .copyright {
   }
   .footer--row {
     padding-left: 50px;
+    padding-right: 50px;
     padding-top: 40px;
   }
   footer .footer--row .footer--col--2 {
     width: auto;
-    margin-left: 50px;
+    margin-left: 25px;
   }
   footer {
     padding-top: 0;
@@ -271,9 +301,15 @@ footer .copyright {
     padding: 0 30px;
   }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 705px) {
   footer .footer--row .footer--col--2 li {
     margin-right: 20px;
+  }
+}
+@media screen and (max-width: 582px) {
+  footer .footer--row {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 @media screen and (max-width: 570px) {
