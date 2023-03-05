@@ -3,6 +3,9 @@
 nav {
   background: #000;
 }
+footer .copyright {
+  color: #fff;
+}
 
 p {
   color: #000;
@@ -98,6 +101,10 @@ a {
 a {
   font-weight: bold;
   text-decoration: none;
+}
+nav a,
+footer a {
+  font-weight: normal;
 }
 .last--div ul p {
   margin-bottom: 5px !important;

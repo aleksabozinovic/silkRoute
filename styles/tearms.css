@@ -3,7 +3,9 @@
 nav {
   background: #000;
 }
-
+footer .copyright {
+  color: #fff;
+}
 p {
   color: #000;
   font-size: 20px;
