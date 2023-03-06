@@ -1,8 +1,18 @@
 "use strict";
-caches
-  .keys()
-  .then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
+async function handleHardReload(url) {
+  await fetch(url, {
+    headers: {
+      Pragma: "no-cache",
+      Expires: "-1",
+      "Cache-Control": "no-cache",
+    },
+  });
+  window.location.href = url;
+  // This is to ensure reload with url's having '#'
+  window.location.reload();
+}
 
+handleHardReload(window.location.href);
 const burgerDiv = document.querySelector(".burger__div");
 const closeBurger = document.querySelector(".close--burger__div");
 const closeBurgerImg = document.querySelector(".close--burger__div img");
