@@ -1,4 +1,7 @@
 "use strict";
+caches
+  .keys()
+  .then((keyList) => Promise.all(keyList.map((key) => caches.delete(key))));
 
 const burgerDiv = document.querySelector(".burger__div");
 const closeBurger = document.querySelector(".close--burger__div");
