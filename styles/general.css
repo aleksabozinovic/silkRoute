@@ -211,11 +211,7 @@ footer .copyright {
     left: 100px;
   }
 }
-@media screen and (max-width: 1270px) {
-  /* footer .footer--row {
-    padding-right: 0;
-  } */
-}
+
 @media screen and (max-width: 1162px) {
   .footer--col--1 {
     left: 50px;

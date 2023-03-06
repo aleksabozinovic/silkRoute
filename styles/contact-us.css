@@ -229,4 +229,7 @@ nav {
   .contact--section1 form button {
     margin-top: 30px;
   }
+  .contact--section2 .box3 {
+    padding-left: 3.3rem;
+  }
 }
