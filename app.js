@@ -1,6 +1,5 @@
 "use strict";
 
-handleHardReload(window.location.href);
 const burgerDiv = document.querySelector(".burger__div");
 const closeBurger = document.querySelector(".close--burger__div");
 const closeBurgerImg = document.querySelector(".close--burger__div img");

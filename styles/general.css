@@ -272,11 +272,9 @@ footer .copyright {
 @media screen and (max-width: 570px) {
   footer .footer--row {
     flex-direction: row-reverse;
-    padding: 0 20px;
     align-items: flex-start;
     width: 100%;
     padding-top: 45px;
-    padding-left: 10px;
     margin-left: 0;
   }
   footer .footer--row .footer--col--2 {
@@ -291,6 +289,9 @@ footer .copyright {
     margin-left: 0;
     left: 10px;
   }
+  .footer--col--1 {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -300,5 +301,9 @@ footer .copyright {
   nav {
     height: auto;
     padding: 20px 10px;
+  }
+
+  footer {
+    padding: 10px 10px;
   }
 }

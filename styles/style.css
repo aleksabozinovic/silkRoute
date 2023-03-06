@@ -1,4 +1,4 @@
-@import url("/styles/general.css");
+/* @import url("/styles/general.css"); */
 /* font-family: 'Anton', sans-serif; */
 /* font-family: 'PT Sans Narrow', sans-serif; */
 
@@ -282,6 +282,7 @@
   }
   .change--background {
     padding: 0 10px;
+    bottom: 60px;
   }
   .hero--text {
     font-size: 50px;
@@ -290,7 +291,6 @@
   .slide--2 h1 {
     padding-left: 50px;
   }
-
   .hero--second__section h2 {
     font-size: 40px;
     line-height: 60px;
@@ -306,6 +306,9 @@
   }
   .hero--third__section h2 {
     margin-bottom: 20px;
+  }
+  .hero--text {
+    margin-bottom: 2rem;
   }
 }
 

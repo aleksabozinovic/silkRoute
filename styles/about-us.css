@@ -1,4 +1,4 @@
-@import url("/styles/general.css");
+/* @import url("/styles/general.css"); */
 
 .hero--section {
   width: 100%;
@@ -159,6 +159,7 @@ h3 {
 @media screen and (max-width: 425px) {
   .hero--section h1 {
     font-size: 50px;
+    margin-bottom: 2rem;
   }
   .second--section,
   .third--section,
