@@ -1,4 +1,5 @@
 "use strict";
+location.reload(true);
 
 handleHardReload(window.location.href);
 const burgerDiv = document.querySelector(".burger__div");
