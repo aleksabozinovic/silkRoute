@@ -279,6 +279,8 @@
   }
   .hero--section {
     padding: 0 10px;
+    display: flex;
+    justify-content: center;
   }
   .change--background {
     padding: 0 10px;
@@ -305,14 +307,7 @@
   .hero--third__section h2 {
     margin-bottom: 20px;
   }
-  .slide--1 {
-    display: block;
-  }
-  .slide--1 .hero--text {
-    padding-top: 273px;
-    padding-bottom: 273px;
-    width: 250px;
-  }
+
   .slide--2 .hero--text {
     padding-top: 290px;
     padding-bottom: 240px;

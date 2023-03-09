@@ -30,6 +30,13 @@ form {
 .contact--section1 {
   height: 890px;
 }
+@media screen and (max-width: 768px) {
+  .contact--section1 {
+    height: 80vh;
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+}
 @media screen and (max-width: 425px) {
   .overlayRed img {
     width: 81px;
