@@ -17,7 +17,6 @@ form {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 65px;
 }
 .arrow {
   pointer-events: none;
@@ -27,6 +26,9 @@ form {
   line-height: 75px;
   font-family: "Anton", sans-serif;
   margin-top: 35px;
+}
+.contact--section1 {
+  height: 890px;
 }
 @media screen and (max-width: 425px) {
   .overlayRed img {

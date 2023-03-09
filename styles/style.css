@@ -288,9 +288,7 @@
     font-size: 50px;
     line-height: 75px;
   }
-  .slide--2 h1 {
-    padding-left: 50px;
-  }
+
   .hero--second__section h2 {
     font-size: 40px;
     line-height: 60px;
@@ -307,12 +305,22 @@
   .hero--third__section h2 {
     margin-bottom: 20px;
   }
-  .hero--text {
-    margin-bottom: 2rem;
+  .slide--1 {
+    display: block;
   }
-}
-
-@media screen and (max-width: 360px) {
+  .slide--1 .hero--text {
+    padding-top: 273px;
+    padding-bottom: 273px;
+    width: 250px;
+  }
+  .slide--2 .hero--text {
+    padding-top: 290px;
+    padding-bottom: 240px;
+    padding-left: 50px;
+  }
+  .hero--slider {
+    height: 92vh;
+  }
   .slide--1 {
     background-image: url("/images/1home_360px.png");
   }
