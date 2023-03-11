@@ -316,7 +316,11 @@
   .hero--slider {
     height: 92vh;
   }
+  .slide--1 h1 {
+    width: 200px;
+  }
   .slide--1 {
+    justify-content: flex-start;
     background-image: url("/images/1home_360px.png");
   }
   .slide--2 {
