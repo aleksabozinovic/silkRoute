@@ -60,8 +60,12 @@ nav {
 .contact--section2 .box1 {
   background: var(--green--color);
 }
+.contact--section2 .box1 {
+  display: flex;
+  justify-content: flex-end;
+}
 .contact--section2 .box1 div {
-  padding-left: 410px;
+  padding-right: 160px;
 }
 .contact--section2 .box2 {
   background: var(--yellow--color);
@@ -70,7 +74,7 @@ nav {
   background: var(--red--color);
 }
 .contact--section2 .box3 div {
-  padding-left: 140px;
+  padding-left: 160px;
 }
 
 /* Form */
@@ -147,10 +151,15 @@ nav {
   .contact--section2 .box1 {
     flex: 1;
   }
-  .contact--section2 .box1 div {
-    padding-left: 170px;
+  .contact--section2 .box div {
+    padding: 0;
   }
 
+  .contact--section2 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .contact--section2 .box3 {
     flex: 1;
   }

@@ -99,7 +99,7 @@ h3 {
   .second--section,
   .third--section,
   .fourth--section {
-    padding: 70px 10px;
+    padding: 70px 30px;
   }
   .delioc {
     width: auto;
@@ -139,10 +139,20 @@ h3 {
   h3 {
     text-align: left;
   }
+  .hero--section {
+    justify-content: flex-start;
+    background-image: url("/images/1\ block\ image\ Mask\ Group768.png");
+  }
+
   h1,
   .hero--section h1 {
     font-size: 70px;
-    line-height: 150%;
+    line-height: 105px;
+    text-align: left;
+  }
+  .hero--section h1 {
+    padding-left: 30px;
+    width: 680px;
   }
   h2 {
     font-size: 40px;
@@ -157,10 +167,15 @@ h3 {
 }
 
 @media screen and (max-width: 425px) {
+  .hero--section {
+    height: 91vh;
+    background-image: url("/images/1\ block\ image\ Mask\ Group360.png");
+  }
   .hero--section h1 {
     font-size: 50px;
-    margin-bottom: 2rem;
+    line-height: 75px;
   }
+
   .second--section,
   .third--section,
   .fourth--section {
@@ -184,6 +199,14 @@ h3 {
   }
   .fourth--section .delioc {
     margin-top: 20px;
+  }
+  .hero--section h1 {
+    padding-left: 10px;
+  }
+  .third--section h2,
+  .fourth--section h2 {
+    font-size: 40px;
+    line-height: 60px;
   }
 }
 
